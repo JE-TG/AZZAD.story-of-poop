@@ -1,0 +1,42 @@
+body{
+    background-color: #8F0683;
+    margin: 0;
+}
+
+/*------DIV------*/
+
+#fullbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vhd;
+}
+
+#buttondiv {
+ display: flex;
+ bottom: 10vh;
+ left: 50dvh;
+ justify-content: center;
+ align-items: center;
+}
+
+#namediv {
+display: flex;
+}
+
+#Nextbtn1 {
+    display: flex;
+ 
+ right: 30vh;
+ height: 10vh;
+ width: 20vh;
+
+
+}
+
+#name {
+    display: flex;
+    left: 3vh;
+    bottom: 1vh;
+}
