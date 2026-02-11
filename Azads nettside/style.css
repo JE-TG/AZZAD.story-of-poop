@@ -7,36 +7,102 @@ body{
 
 #fullbody {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0;
-    height: 100vhd;
-}
+    height: 100dvh;
+    border: 2px solid aqua;
+} 
 
-#buttondiv {
- display: flex;
- bottom: 10vh;
- left: 50dvh;
- justify-content: center;
- align-items: center;
-}
-
-#namediv {
-display: flex;
-}
-
-#Nextbtn1 {
+#colume1st {
     display: flex;
- 
- right: 30vh;
- height: 10vh;
- width: 20vh;
-
-
+    flex-direction: column;
+    border: 2px solid orangered;
+    height: 100vh;
+    width: 15.38%;
 }
 
-#name {
+#colume2nd{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid violet;
+        height: 100vh;
+        width: 23.08%;
+}
+
+#colume3rd{
     display: flex;
-    left: 3vh;
-    bottom: 1vh;
+    flex-direction: column;
+        border: 2px solid yellow;
+        height: 100vh;
+        width: 23.08%;
+}
+
+#colume4th{
+    display: flex;
+    flex-direction: column;
+        border: 2px solid red;
+        height: 100vh;
+        width: 23.08%;
+}
+
+#colume5th{
+    display: flex;
+    flex-direction: column;
+        border: 2px solid greenyellow;
+        height: 100vh;
+        width: 15.38%;
+}
+
+#topempty1st {
+    height: 28.572vh;
+    border: 2px solid red;
+}
+
+#topempty2nd {
+    height: 30vh;
+    border: 2px solid yellow;
+}
+
+#topempty3rd {
+    border: 2px solid orange;
+}
+
+#topempty4th {
+    border: 2px solid chartreuse;
+}
+
+#topempty5th {
+    border: 2px solid blanchedalmond;
+}
+
+#inbetween2nd {
+    border: 2px solid green;
+}
+
+#inbetween3rd {
+    border: 2px solid blue;
+}
+
+#inbetween4th {
+    border: 2px solid pink;
+}
+
+#bottom1st {
+    height: 73.42vh;
+border: 2px solid blue;
+}
+
+#bottom2nd {
+border: 2px solid yellow;
+}
+
+#bottom3rd {
+border: 2px solid orange;
+}
+
+#bottom4th {
+border: 2px solid chartreuse;
+}
+
+#bottom5th {
+border: 2px solid blanchedalmond;
 }
