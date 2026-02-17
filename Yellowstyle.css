@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(250, 210, 35);
+}
+
+#fullbody {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    border: 2px solid aqua;
+}
+
+/*vvvvv CLASSES vvvvvv*/
+
+.square {
+    height: 20vh;
+    background-color: rgb(243, 249, 119);
+}
+
+.circle {
+    height: 20vh;
+    border-radius: 99999px;
+    background-color: rgb(255, 245, 52);
+}
+
+/*vvvv 1ST COLUME AND ALL INSIDE vvvv*/
+
+#colume1st {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 15.38%;
+    border: 2px solid salmon;
+}
+
+#top1st {
+    display: grid;
+    height: 20vh;
+    border: 2px solid green;
+}
+
+#topsquare1st1 {
+    grid-row: 100;
+    grid-column: 1;
+}
+
+#topcircle1st1 {
+    grid-row: 100;
+    grid-column: 2;
+}
+
+
+#middle1st {
+    height: 60vh;
+    border: 2px solid red;
+}
+
+#bottom1st {
+    height: 20vh;
+    border: 2px solid blue;
+}
+
+#colume2nd {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 23.08%;
+    border: 2px solid purple;
+}
+
+#top2nd {
+
+}
+
+#middle2nd {
+
+}
+
+#bottom2nd {
+    
+}
+
+#colume3rd {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 23.08%;
+    border: 2px solid red;
+}
+
+#top3rd {
+
+}
+
+#middle3rd {
+
+}
+
+#bottom3rd {
+    
+}
+
+#colume4th {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 23.08%;
+    border: 2px solid green;
+}
+#top4th {
+
+}
+
+#middle4th {
+
+}
+
+#bottom4th {
+    
+}
+
+#colume5th {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 15.38%;
+    border: 2px solid blue;
+}
+
+#top5th {
+
+}
+
+#middle5th {
+
+}
+
+#bottom5th {
+    
+}

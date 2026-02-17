@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(4, 248, 253);
+}
+
+#fullbody {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    border: 2px solid aqua;
+}
+
+#colume1st {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#colume2nd {
+    display: flex;
+    flex-direction: column;
+}
+
+#colume3rd {
+    display: flex;
+    flex-direction: column;
+}
+
+#colume4th {
+   display: flex;
+   flex-direction: ; 
+}
+
+#colume5th {
+    
+}
