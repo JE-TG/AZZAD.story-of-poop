@@ -166,7 +166,6 @@ border: 2px solid blanchedalmond;
 /*vvvvv SQUARE AND CIRCLE CLASS vvvvvvv*/
 
 .square {
-    grid-row: 100;
     height: 14.286vh;
     background-color: rgb(83, 3, 68);
 }
@@ -364,7 +363,7 @@ grid-column: 1;
     box-sizing: border-box;
 }
 
-/*
+
 * {
     border: none !important;
 }
